@@ -25,6 +25,9 @@ Color Theme Swatches in RGBA
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 15px;
 */
+body {
+    margin: 0;
+}
 /* Nav Bar */
 
 #navbar {
@@ -55,6 +58,31 @@ a {
     text-decoration: none;
     color: #023059;
 }
+
+/* Welcome Section */
+
+#welcome-section {
+    height: 100vh;
+    background-color: #023059;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+#statement {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    color: #617a92;
+    margin-top: 0;
+}
+
 
 
 
