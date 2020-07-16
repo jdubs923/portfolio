@@ -1,0 +1,60 @@
+/*
+ Color Theme Swatches in Hex
+.Gas-Station-App-1-hex { color: #590209; }
+.Gas-Station-App-2-hex { color: #BF0426; }
+.Gas-Station-App-3-hex { color: #F20F38; }
+.Gas-Station-App-4-hex { color: #023059; }
+.Gas-Station-App-5-hex { color: #CEECF2; }
+
+Color Theme Swatches in RGBA
+.Gas-Station-App-1-rgba { color: rgba(89, 1, 9, 1); }
+.Gas-Station-App-2-rgba { color: rgba(191, 3, 38, 1); }
+.Gas-Station-App-3-rgba { color: rgba(242, 14, 56, 1); }
+.Gas-Station-App-4-rgba { color: rgba(1, 48, 89, 1); }
+.Gas-Station-App-5-rgba { color: rgba(205, 235, 242, 1); }
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+
+    font-family: 'Catamaran', sans-serif;
+    font-size: 48px;
+
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+*/
+/* Nav Bar */
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #bf0426;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav-bar{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.navitem {
+    display: inline-block;
+    margin-right: 35px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #023059;
+}
+
+
+
