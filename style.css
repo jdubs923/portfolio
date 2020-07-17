@@ -83,6 +83,49 @@ h1 {
     margin-top: 0;
 }
 
+/* Project Section */
+
+#projects {
+    background-color: #CEECF2;
+    padding-top: 50px;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #023059;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    gap: 25px;
+    padding: 25px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-icon {
+    text-decoration: none;
+    text-align: center;
+    background-color: #023059;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #617a92;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
 
 
 
